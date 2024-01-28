@@ -1,0 +1,22 @@
+.banner-reward-image{
+    border-radius: 10px;
+}
+.banner-reward-image .fade{
+    background-image: linear-gradient( #ffffff00, #ffffff00);
+}
+
+/* Phone Size ###############*/
+@media (max-width: 600px){
+    .banner-image{
+        /* height: calc(100vh - 80px);
+        overflow-x: scroll; */
+        margin-bottom: 10px;
+    }
+    .banner-reward-image{
+        margin: 10px 0 0 0;
+        border-radius: 10px;
+    }
+    .banner-reward-image .fade{
+        display: none;
+    }
+}

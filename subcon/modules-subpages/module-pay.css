@@ -1,0 +1,20 @@
+
+.dashboard-content{
+    /* height: calc(100vh - 65px);
+    overflow-x: scroll;
+    margin-bottom: 20px; */
+    margin-top: 20px;
+}
+.module-pay{
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    font-size: var(--body);
+}
+.module-pay .title{
+    font-weight: 500;
+    font-size: var(--title-2);
+}
+.module-pay .body{
+    margin-bottom: 20px;
+}
